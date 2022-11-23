@@ -1,0 +1,14 @@
+---
+import Layout from '@lays/Index.astro'
+import Tst from '@comps/tst'
+import Image from '@comps/Image'
+---
+
+<Layout>
+  <Tst client:load />
+  <p>home</p>
+  <Image
+    src="https://api.adicw.cn/images/StudyImg/20190804113325.jpg"
+    aspectRratio={1 / 1}
+  />
+</Layout>
